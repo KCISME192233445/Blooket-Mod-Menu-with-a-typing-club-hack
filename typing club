@@ -1,1 +1,39 @@
-javascript: delay=prompt("Enter delay (ms). Any smaller than 58 it wont regrister Tully");/*Please keep in mind that this is just an experiment. If your typingclub stuff is graded please do not use this. Seriously*/const rawElements = document.getElementsByClassName("token_unit");const listElements = Array.from(rawElements); const letterList = []; listElements.forEach(item => letterList.push(item.innerHTML.replace(/<\/?[^>]+(>|$)/g, ""))); var strippedLetterList = letterList.map(function(x){return x.trim().replace(/&nbsp;/g, " ");}); for (let i = 0; i < strippedLetterList.length; i++) {setTimeout(function(){window.core.record_keydown_time(strippedLetterList[i])}, delay*i)};
+javascript: delay=prompt("Enter delay (ms). Any smaller than 58 it wont regrister Tully Eat like a king who's on a budget Three tasty options Fries, drinks and nuggets All for five bucks wait, that can't be right Just confirmed that that's the real price
+
+Two full meals, five-ninety-nine each
+Whopper, royal crispy, two fries, two drinks
+Double em' up or mix and match
+Whatever you want
+We're into that
+Five dollar, your way
+I rule this day
+Nuggets, fries, drinks
+Bar's just been raised
+And Whopper Jr, it's something new
+A barbeque bacon junior, just for you
+
+Marinara, mozzarella
+Look at this royal crispy fella
+Sauce and cheese, crispy chicken
+Italian Royal is what I'm pickin'
+Chicken, chicken, chicken, chicken
+Italian spicy bacon chickеn
+Take one bite and it all starts clickin'
+Crown up my day
+
+Toasty bun and tasty royal saucе
+Got me buzzin', I'm the royal boss
+Sauce it up and top it with mozz
+Chicken my way
+
+Whopper, whopper, whopper, whopper
+Junior, double, triple whopper
+Flame-grilled taste with perfect toppers
+I rule this day
+Lettuce, mayo, pickle, ketchup
+It's okay if I don't want that
+Impossible whole bacon whopper
+Any whopper my way
+
+You rule, you're seizin' the day
+At BK, have it your way");/*Please keep in mind that this is just an experiment. If your typingclub stuff is graded please do not use this. Seriously*/const rawElements = document.getElementsByClassName("token_unit");const listElements = Array.from(rawElements); const letterList = []; listElements.forEach(item => letterList.push(item.innerHTML.replace(/<\/?[^>]+(>|$)/g, ""))); var strippedLetterList = letterList.map(function(x){return x.trim().replace(/&nbsp;/g, " ");}); for (let i = 0; i < strippedLetterList.length; i++) {setTimeout(function(){window.core.record_keydown_time(strippedLetterList[i])}, delay*i)};
